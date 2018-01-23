@@ -13,7 +13,7 @@
 </head>
 <body>
         <div class="jumbotron">
-                <h1 class="display-3">Hello, world!</h1>
+                <h1 class="display-3">New York Times Search</h1>
                 
               </div>
 
@@ -25,14 +25,23 @@
                         </div>
                         <div class="card-block">
                             <form role="form">
-                                <div class="form-group col-lg-4">
+                                <div class="form-group col-lg-12 padd">
                                     <label class="form-control-label" for="form-group-input">Search Term:</label>
                                     <input type="text" class="form-control" id="search-term" name="search-term">
                                 </div>
-                                <div class="form-group col-lg-4">
+                                <div class="form-group col-lg-12">
                                     <label class="form-control-label" for="form-group-input">Start Year (Optional):</label>
                                     <input type="text" class="form-control" id="start-year" name="start-year">
                                 </div>
+                                <div class="form-group col-lg-12">
+                                        <label for="pwd">Number of Records to Retrieve:</label>
+                                        <select class="form-control" id="numRecordsSelect">
+                                            <option value=1>1</option>
+                                            <option value=5>5</option>
+                                            <option value=10>10</option>
+                                </select>
+                                </div>
+                                            
                                 <div class="form-group col-lg-12">
                                     <label class="form-control-label" for="form-group-input">End Year (Optional):</label>
                                     <input type="text" class="form-control" id="end-year" name="end-year">
@@ -51,12 +60,26 @@
                             <div class="card-header" id="card-color">
                                     <p id ="text">Top Articles</p>
                                 </div>
-                            <div class="card-block" id="bottom-content->
-
+                            <div class="card-block" id="content-display">
+                                <div class="listing" id="article">
+                                    <h3>
+                                        <span class="label label-primary">1</span>
+                                        <strong>Article Title Article Title Article Title </strong>
+                                    </h3>
+                                    <h5>by Steve Jobs</h5>
+                                    <h5>Section.</h5>
+                                    <h5>Date</h5>
+                                    <a href="www.google.com">www.google.com</a>
+                                </div>
                             </div>
                     </div>
+                    
+
+                    
 
                 </div>
     
+
+
 </body>
 </html>
