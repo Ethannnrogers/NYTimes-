@@ -1,0 +1,17 @@
+.jumbotron {
+    text-align: center;
+    background-color: rgb(33, 33, 124);
+    color: white;
+    margin-left: 55px;
+    margin-right: 55px;
+    
+}
+#card-color {
+    background-color:rgb(33, 33, 124);
+    height: 60px;
+}
+
+#text {
+    color: white;
+    font-size: 20px;
+}
